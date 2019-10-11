@@ -1,0 +1,29 @@
+body {
+    background-color: #868686f6;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+* {
+    
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+p,h1,h2 {
+    color:tomato;
+    text-align: center;
+    background-color: white;
+}
+
+#para1 {
+    text-align: right;
+    color: green;
+    background-image: url('./assets/wall.jpg');
+}
+
+.para2 {
+    text-align: left;
+    color: yellow;
+}
