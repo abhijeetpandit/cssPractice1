@@ -60,3 +60,65 @@ p,h1,h2 {
 p.inherited-margin-para1 {
     margin: inherit;
 }
+
+
+
+a, a:link, a:visited, a:active {
+    text-decoration: none;
+    background-color: #97e0b3;
+    display: inline-block;
+    padding: 5px;
+    color: #000;
+}
+
+a:hover {
+    background-color: #1be769;
+    padding: 5px;
+    color: #fff;
+}
+
+ol {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: square;
+}
+
+table, td, th {
+    border-bottom: 1px solid #adadad;
+}
+
+td, th {
+    padding: 8px 20px;
+}
+
+td {
+    font-size: 0.8em;
+}
+
+tr:nth-child(even) {
+    background-color: #d8cdff;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #71e07b;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    
+}
