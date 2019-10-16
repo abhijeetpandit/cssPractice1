@@ -6,3 +6,7 @@ h1 {
     box-sizing: border-box;
     font-family: Tahoma, Geneva, sans-serif;
 }
+
+body {
+    margin: 5px;
+}

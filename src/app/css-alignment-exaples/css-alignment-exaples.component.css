@@ -1,0 +1,18 @@
+.auto-margin {
+    border: 2px solid green;
+    width: 400px;
+    margin: auto;
+    padding: 4px;
+}
+
+.center-align-text {
+    border: 2px solid green;
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
