@@ -7,7 +7,7 @@
 .page-container::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
 }
 
 .left-menu {
@@ -30,4 +30,36 @@
     background-color: #447ab8;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.display-inline-200 {
+    display: inline;
+    width: 200px;
+    background-color: #ffa9a9;
+}
+.display-inline-block-200 {
+    width: 200px;
+    background-color: #ffa9a9;
+    height: 30px;
+}
+
+.display-inline-block-50pc {
+    width: 50%;
+    background-color: #ffa9a9;
+    height: 30px;
+}
+
+.footer-navigation {
+    background-color: #003f86;
+}
+
+.footer-navigation ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.footer-navigation ul li a, .footer-navigation ul li a:link, .footer-navigation ul li a:visited, .footer-navigation ul li a:active {
+    color: #fff;
+    text-decoration: overline;
 }

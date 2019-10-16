@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FloatStylePageComponent } from './float-style-page/float-style-page.component';
 import { FirstPageComponent } from './first-page/first-page.component';
+import { CssAlignmentExaplesComponent } from './css-alignment-exaples/css-alignment-exaples.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FloatStylePageComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    CssAlignmentExaplesComponent
   ],
   imports: [
     BrowserModule,
