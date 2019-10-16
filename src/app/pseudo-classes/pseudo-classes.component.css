@@ -1,0 +1,9 @@
+.text-with-tooltip > .tooltip {
+    display: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.text-with-tooltip:hover .tooltip {
+    display: inline;
+}
