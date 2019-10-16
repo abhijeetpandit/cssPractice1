@@ -7,3 +7,42 @@
 .text-with-tooltip:hover .tooltip {
     display: inline;
 }
+
+.pseudo-element-first-letter::first-letter {
+    font-size: xx-large;
+    color: red;
+}
+
+.pseudo-element-first-letter::first-line {
+    font-size: x-large;
+    color: yellowgreen;
+}
+
+::selection {
+    color: red;
+    background-color: lightcoral;
+}
+
+
+
+ul {
+    background-color: #b4b4b4;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+}
+
+ul li a, ul li a:link, ul li a:visited, ul li a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li:hover {
+    background-color: #527980;
+}
