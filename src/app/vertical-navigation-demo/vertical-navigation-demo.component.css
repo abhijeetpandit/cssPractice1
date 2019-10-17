@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    width: 25%;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+
+ul>li {
+    padding: 10px 15px;
+}
+
+ul>li.first {
+    background-color: #38ff91;
+}
+
+ul>li:hover:not(.first) {
+    background-color: #686868;
+}
+

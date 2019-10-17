@@ -7,6 +7,8 @@ import { FloatStylePageComponent } from './float-style-page/float-style-page.com
 import { FirstPageComponent } from './first-page/first-page.component';
 import { CssAlignmentExaplesComponent } from './css-alignment-exaples/css-alignment-exaples.component';
 import { PseudoClassesComponent } from './pseudo-classes/pseudo-classes.component';
+import { VerticalNavigationDemoComponent } from './vertical-navigation-demo/vertical-navigation-demo.component';
+import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/horizontal-navigation-one.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PseudoClassesComponent } from './pseudo-classes/pseudo-classes.componen
     FloatStylePageComponent,
     FirstPageComponent,
     CssAlignmentExaplesComponent,
-    PseudoClassesComponent
+    PseudoClassesComponent,
+    VerticalNavigationDemoComponent,
+    HorizontalNavigationOneComponent
   ],
   imports: [
     BrowserModule,

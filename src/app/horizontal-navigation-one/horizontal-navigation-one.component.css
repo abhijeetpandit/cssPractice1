@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
+ul>li {
+    float: left;
+    border-right: 1px solid #242220;
+}
+
+ul>li:last-child {
+    border-right: none;
+}
+ul>li>a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #5c4747;
+}
+
+ul>li>a:hover:not(.active) {
+    background-color: #fff;
+}
+
+.active {
+    background-color: #979797;
+}

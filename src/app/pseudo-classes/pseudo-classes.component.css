@@ -1,10 +1,10 @@
-.text-with-tooltip > .tooltip {
+.text-with-tooltip>.tooltip {
     display: none;
     color: #fff;
     background-color: #000;
 }
 
-.text-with-tooltip:hover .tooltip {
+.text-with-tooltip:hover>.tooltip {
     display: inline;
 }
 
@@ -31,18 +31,38 @@ ul {
     padding: 0px;
     margin: 0px;
     width: 150px;
+    border: 1px solid #000;
 }
 
-li a {
+ul>li>a {
     display: block;
     padding: 10px;
 }
 
-ul li a, ul li a:link, ul li a:visited, ul li a:active {
+li {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li.active {
+    background-color: #63e278;
+}
+
+ul>li>a, ul>li>a:link, ul>li>a:visited, ul>li>a:active {
     text-decoration: none;
     color: #fff;
 }
 
-ul li:hover {
+ul>li>a:active {
+    background-color: #000;
+}
+
+
+
+ul li:hover:not(.active) {
     background-color: #527980;
 }
