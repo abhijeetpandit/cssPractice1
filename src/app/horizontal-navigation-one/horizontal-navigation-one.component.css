@@ -4,6 +4,16 @@ ul {
     padding:0px;
     overflow: hidden;
     background-color: #dddddd;
+    position: sticky;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+
+ul::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 
 ul>li {

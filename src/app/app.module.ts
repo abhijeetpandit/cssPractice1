@@ -9,6 +9,9 @@ import { CssAlignmentExaplesComponent } from './css-alignment-exaples/css-alignm
 import { PseudoClassesComponent } from './pseudo-classes/pseudo-classes.component';
 import { VerticalNavigationDemoComponent } from './vertical-navigation-demo/vertical-navigation-demo.component';
 import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/horizontal-navigation-one.component';
+import { ResponsiveTopNavComponent } from './responsive-top-nav/responsive-top-nav.component';
+import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-sidebar.component';
+import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/ho
     CssAlignmentExaplesComponent,
     PseudoClassesComponent,
     VerticalNavigationDemoComponent,
-    HorizontalNavigationOneComponent
+    HorizontalNavigationOneComponent,
+    ResponsiveTopNavComponent,
+    ResponsiveSidebarComponent,
+    DropdownOneComponent
   ],
   imports: [
     BrowserModule,

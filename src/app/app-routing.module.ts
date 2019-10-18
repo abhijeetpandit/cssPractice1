@@ -7,6 +7,9 @@ import { CssAlignmentExaplesComponent } from './css-alignment-exaples/css-alignm
 import { PseudoClassesComponent } from './pseudo-classes/pseudo-classes.component';
 import { VerticalNavigationDemoComponent } from './vertical-navigation-demo/vertical-navigation-demo.component';
 import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/horizontal-navigation-one.component';
+import { ResponsiveTopNavComponent } from './responsive-top-nav/responsive-top-nav.component';
+import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-sidebar.component';
+import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
 
 
 const routes: Routes = [
@@ -27,6 +30,15 @@ const routes: Routes = [
   },
   {
     path: 'horizontal-navigation-demo-one', component: HorizontalNavigationOneComponent
+  },
+  {
+    path: 'responsive-top-nav', component: ResponsiveTopNavComponent
+  },
+  {
+    path: 'responsive-sidebar', component: ResponsiveSidebarComponent
+  },
+  {
+    path: 'dropdown-one', component: DropdownOneComponent
   },
 
   

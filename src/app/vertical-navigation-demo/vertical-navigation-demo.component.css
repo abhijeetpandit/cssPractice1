@@ -12,6 +12,10 @@ ul {
 ul>li {
     padding: 10px 15px;
 }
+ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
 
 ul>li.first {
     background-color: #38ff91;
@@ -20,4 +24,3 @@ ul>li.first {
 ul>li:hover:not(.first) {
     background-color: #686868;
 }
-
