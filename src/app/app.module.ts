@@ -13,6 +13,7 @@ import { ResponsiveTopNavComponent } from './responsive-top-nav/responsive-top-n
 import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-sidebar.component';
 import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
 import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
+import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
     ResponsiveTopNavComponent,
     ResponsiveSidebarComponent,
     DropdownOneComponent,
-    DropdownTwoComponent
+    DropdownTwoComponent,
+    ImageSpritesComponent
   ],
   imports: [
     BrowserModule,
