@@ -12,6 +12,7 @@ import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/ho
 import { ResponsiveTopNavComponent } from './responsive-top-nav/responsive-top-nav.component';
 import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-sidebar.component';
 import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
+import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
     HorizontalNavigationOneComponent,
     ResponsiveTopNavComponent,
     ResponsiveSidebarComponent,
-    DropdownOneComponent
+    DropdownOneComponent,
+    DropdownTwoComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ import { HorizontalNavigationOneComponent } from './horizontal-navigation-one/ho
 import { ResponsiveTopNavComponent } from './responsive-top-nav/responsive-top-nav.component';
 import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-sidebar.component';
 import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
+import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
 
 
 const routes: Routes = [
@@ -40,7 +41,9 @@ const routes: Routes = [
   {
     path: 'dropdown-one', component: DropdownOneComponent
   },
-
+  {
+    path: 'dropdown-two', component: DropdownTwoComponent
+  },
   
 ];
 
