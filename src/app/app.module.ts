@@ -17,6 +17,7 @@ import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
 import { CssFormOneComponent } from './css-form-one/css-form-one.component';
 import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
 import { CssCountersComponent } from './css-counters/css-counters.component';
+import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CssCountersComponent } from './css-counters/css-counters.component';
     ImageSpritesComponent,
     CssFormOneComponent,
     CssFormTwoResponsiveComponent,
-    CssCountersComponent
+    CssCountersComponent,
+    SiteExampleOneComponent
   ],
   imports: [
     BrowserModule,

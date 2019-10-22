@@ -4,10 +4,29 @@ h1 {
 
 p{
     counter-reset: outer;
+}
+
+h1::before {
+    counter-increment: outer;
+    content: "Section " counter(outer) ": ";
     counter-reset: inner;
 }
 
-h1 {
-    counter-increment: outer;
-    content: "Section ";
+h2::before {
+    counter-increment: inner;
+    content: "Section " counter(outer) "." counter(inner) ": ";
+}
+
+.new {
+    counter-reset: c;
+}
+
+ol {
+    counter-reset: sec;
+    list-style-type: none;
+}
+
+li::before {
+    counter-increment: sec;
+    content: counters(sec, ".") " > ";
 }

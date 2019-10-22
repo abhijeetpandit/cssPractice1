@@ -15,6 +15,7 @@ import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
 import { CssFormOneComponent } from './css-form-one/css-form-one.component';
 import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
 import { CssCountersComponent } from './css-counters/css-counters.component';
+import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
 
 
 const routes: Routes = [
@@ -57,9 +58,11 @@ const routes: Routes = [
   {
     path: 'css-forms-two-responsive', component: CssFormTwoResponsiveComponent
   },
-
   {
     path: 'css-counters', component: CssCountersComponent
+  },
+  {
+    path: 'site-example-one', component: SiteExampleOneComponent
   },
 ];
 
