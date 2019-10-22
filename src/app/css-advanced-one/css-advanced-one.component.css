@@ -1,0 +1,5 @@
+.border-image {
+    border: 50px solid transparent;
+    padding: 15px;
+    border-image: url(../../assets/border.png) 30% round;
+}

@@ -16,6 +16,7 @@ import { CssFormOneComponent } from './css-form-one/css-form-one.component';
 import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
 import { CssCountersComponent } from './css-counters/css-counters.component';
 import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
+import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.component';
 
 
 const routes: Routes = [
@@ -63,6 +64,9 @@ const routes: Routes = [
   },
   {
     path: 'site-example-one', component: SiteExampleOneComponent
+  },
+  {
+    path: 'border-image', component: CssAdvancedOneComponent
   },
 ];
 

@@ -18,6 +18,7 @@ import { CssFormOneComponent } from './css-form-one/css-form-one.component';
 import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
 import { CssCountersComponent } from './css-counters/css-counters.component';
 import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
+import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SiteExampleOneComponent } from './site-example-one/site-example-one.com
     CssFormOneComponent,
     CssFormTwoResponsiveComponent,
     CssCountersComponent,
-    SiteExampleOneComponent
+    SiteExampleOneComponent,
+    CssAdvancedOneComponent
   ],
   imports: [
     BrowserModule,
