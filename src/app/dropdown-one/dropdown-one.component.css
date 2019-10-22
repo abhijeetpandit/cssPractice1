@@ -62,7 +62,7 @@ ul>li.dropdown:hover .dropdown-content{
     z-index: 1;
 }
 
-.dropdown-two:hover .dropdown-content-two {
+.dropdown-two>span:hover~.dropdown-content-two {
     display: block;
 }
 

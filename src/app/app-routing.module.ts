@@ -12,6 +12,9 @@ import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-side
 import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
 import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
 import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
+import { CssFormOneComponent } from './css-form-one/css-form-one.component';
+import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
+import { CssCountersComponent } from './css-counters/css-counters.component';
 
 
 const routes: Routes = [
@@ -48,7 +51,16 @@ const routes: Routes = [
   {
     path: 'image-sprites', component: ImageSpritesComponent
   },
-  
+  {
+    path: 'css-forms-one', component: CssFormOneComponent
+  },
+  {
+    path: 'css-forms-two-responsive', component: CssFormTwoResponsiveComponent
+  },
+
+  {
+    path: 'css-counters', component: CssCountersComponent
+  },
 ];
 
 @NgModule({

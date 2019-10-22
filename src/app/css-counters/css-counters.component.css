@@ -1,0 +1,13 @@
+h1 {
+    color:#000;
+}
+
+p{
+    counter-reset: outer;
+    counter-reset: inner;
+}
+
+h1 {
+    counter-increment: outer;
+    content: "Section ";
+}

@@ -14,6 +14,9 @@ import { ResponsiveSidebarComponent } from './responsive-sidebar/responsive-side
 import { DropdownOneComponent } from './dropdown-one/dropdown-one.component';
 import { DropdownTwoComponent } from './dropdown-two/dropdown-two.component';
 import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
+import { CssFormOneComponent } from './css-form-one/css-form-one.component';
+import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-form-two-responsive.component';
+import { CssCountersComponent } from './css-counters/css-counters.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { ImageSpritesComponent } from './image-sprites/image-sprites.component';
     ResponsiveSidebarComponent,
     DropdownOneComponent,
     DropdownTwoComponent,
-    ImageSpritesComponent
+    ImageSpritesComponent,
+    CssFormOneComponent,
+    CssFormTwoResponsiveComponent,
+    CssCountersComponent
   ],
   imports: [
     BrowserModule,
