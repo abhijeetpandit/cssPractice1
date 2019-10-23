@@ -1,5 +1,55 @@
 .border-image {
-    border: 50px solid transparent;
-    padding: 15px;
+    border: 20px solid transparent;
+    padding: 1px;
     border-image: url(../../assets/border.png) 30% round;
+}
+
+.multiple-backgrounds {
+    background-image: url(../../assets/diya.jpg), url(../../assets/codecomp.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    padding: 10px;
+    width:900px;
+    height: 500px;
+    color: #fff;
+}
+
+
+.small-background {
+    background-image: url(../../assets/diya.jpg);
+    background-size: 200px auto;
+    width: 1024px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: #8b8b8b;
+    border: 1px solid black;
+}
+
+.gradient-div {
+    height: 200px;
+    width: 400px;
+    border: 2px solid #929292;
+    float: left;
+    color: #000000;
+}
+
+.gradient1 {
+    background-image: linear-gradient(red, yellow);
+}
+
+.left-to-right {
+    background-image: linear-gradient(to right, #9556d1, #ff8800);
+}
+
+.diagonal {
+    background-image: linear-gradient(to bottom right, #ff0000, #00ff22);
+}
+
+.angle {
+    background-image: linear-gradient(-90deg, #ff0000, #00ff22);
+}
+
+.multi-color {
+    background-image: linear-gradient(#743346,#612424,#4211f5,#1100ff, #b11414);
 }

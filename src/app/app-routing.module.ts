@@ -17,6 +17,7 @@ import { CssFormTwoResponsiveComponent } from './css-form-two-responsive/css-for
 import { CssCountersComponent } from './css-counters/css-counters.component';
 import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
 import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.component';
+import { CssShadowsComponent } from './css-shadows/css-shadows.component';
 
 
 const routes: Routes = [
@@ -67,6 +68,9 @@ const routes: Routes = [
   },
   {
     path: 'border-image', component: CssAdvancedOneComponent
+  },
+  {
+    path: 'css-shadows', component: CssShadowsComponent
   },
 ];
 
