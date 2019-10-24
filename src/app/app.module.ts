@@ -21,6 +21,7 @@ import { SiteExampleOneComponent } from './site-example-one/site-example-one.com
 import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.component';
 import { CssShadowsComponent } from './css-shadows/css-shadows.component';
 import { TransitionDemoComponent } from './transition-demo/transition-demo.component';
+import { CssTransformsOneComponent } from './css-transforms-one/css-transforms-one.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { TransitionDemoComponent } from './transition-demo/transition-demo.compo
     SiteExampleOneComponent,
     CssAdvancedOneComponent,
     CssShadowsComponent,
-    TransitionDemoComponent
+    TransitionDemoComponent,
+    CssTransformsOneComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+div#abc {
+    transform: rotate(-10deg);
+    background-color: red;
+    display: inline-block;
+}
+
+.translate {
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    display: inline-block;
+    transition: 5s ease-in-out;
+}
+
+.translate:hover {
+    -ms-transform: translate(50px,100px); /* IE 9 */
+    -webkit-transform: translate(50px,100px); /* Safari prior 9.0 */
+    transform: translate(30px, 20px);
+    color:red;
+}
+
+.rotate {
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    display: inline-block;
+    transition: 1s ease-in-out;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+.scale {
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    display: inline-block;
+    transition: 1s ease-in-out;
+}
+
+.scale:hover {
+    transform: scale(0.5,1.5);
+}
