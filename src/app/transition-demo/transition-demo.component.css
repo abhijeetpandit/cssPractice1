@@ -1,0 +1,40 @@
+.width-transition {
+    width: 100px;
+    height: 100px;
+    transition: width 2s ease-in-out, height 4s ease-in-out, transform 10s;
+    background-color: red;
+    transition-delay: 2s;
+}
+
+.width-transition:hover {
+    width: 300px;
+    height: 400px;
+    transform: rotate(180deg);
+}
+
+
+.width-transition2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: width, height;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.width-transition2:hover {
+    width: 300px;
+    height: 400px;
+}
+
+.width-transition3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 5s linear 1s, height 5s linear 1s;
+}
+.width-transition3:hover {
+    width: 300px;
+    height: 400px;
+}

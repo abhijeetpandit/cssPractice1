@@ -18,6 +18,7 @@ import { CssCountersComponent } from './css-counters/css-counters.component';
 import { SiteExampleOneComponent } from './site-example-one/site-example-one.component';
 import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.component';
 import { CssShadowsComponent } from './css-shadows/css-shadows.component';
+import { TransitionDemoComponent } from './transition-demo/transition-demo.component';
 
 
 const routes: Routes = [
@@ -71,6 +72,9 @@ const routes: Routes = [
   },
   {
     path: 'css-shadows', component: CssShadowsComponent
+  },
+  {
+    path: 'transition-demo', component: TransitionDemoComponent
   },
 ];
 
