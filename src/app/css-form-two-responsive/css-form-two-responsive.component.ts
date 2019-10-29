@@ -10,6 +10,11 @@ export class CssFormTwoResponsiveComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    alert(window.innerWidth + ' ' + window.innerHeight);
+  }
+
+  alert1() {
+    alert("Hi");
   }
 
 }

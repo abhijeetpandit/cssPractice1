@@ -84,3 +84,7 @@ div#abc {
     visibility: visible;
     opacity: 0.8;
 }
+
+button:disabled {
+    background-color: red;
+}

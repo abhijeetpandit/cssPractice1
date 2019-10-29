@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-25">
-            <label for="coutry">Country</label>
+            <label for="country">Country</label>
         </div>
         <div class="col-75">
             <select id="country">
@@ -34,7 +34,7 @@
             <textarea id="inputSubject" name="subject" placeholder="subject..." style="height:200px;"></textarea>
         </div>
         <div class="row">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" [disabled]="false" (click)="alert1()">
         </div>
     </form>
 </div>

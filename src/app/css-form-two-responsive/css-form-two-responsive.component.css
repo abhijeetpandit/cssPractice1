@@ -62,3 +62,8 @@ label {
     display: inline-block;
     padding: 12px 0px 0px 0px;
 }
+
+input[type="submit"]:disabled {
+    background-color: #4e4e4e;
+    color: #aaaaaa;
+}

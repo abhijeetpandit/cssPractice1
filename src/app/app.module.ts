@@ -22,6 +22,7 @@ import { CssAdvancedOneComponent } from './css-advanced-one/css-advanced-one.com
 import { CssShadowsComponent } from './css-shadows/css-shadows.component';
 import { TransitionDemoComponent } from './transition-demo/transition-demo.component';
 import { CssTransformsOneComponent } from './css-transforms-one/css-transforms-one.component';
+import { GridDemoComponent } from './grid-demo/grid-demo.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { CssTransformsOneComponent } from './css-transforms-one/css-transforms-o
     CssAdvancedOneComponent,
     CssShadowsComponent,
     TransitionDemoComponent,
-    CssTransformsOneComponent
+    CssTransformsOneComponent,
+    GridDemoComponent
   ],
   imports: [
     BrowserModule,
